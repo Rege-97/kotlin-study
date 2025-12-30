@@ -21,4 +21,19 @@ fun main(args: Array<String>) {
     mutableFruitList.forEach { fruit ->
         println("My Fruit List : $fruit")
     }
+
+    // 2. Set
+    // 순서가 없는 중복되지 않는 요소로 이루어진 자료구조
+
+    // 불변 Set
+    val immutableNumSet = setOf(1,1,2,2,3,3,3,4)    // 중복은 제거하고 들어감
+    println(immutableNumSet)
+
+    // 가변 Set
+    val mutableNumSet = mutableSetOf(1,1,2,3,3,4,5,6)
+    println(mutableNumSet)
+    mutableNumSet.add(100)
+    mutableNumSet.remove(1)
+    println(mutableNumSet)
+    println(mutableNumSet.contains(1))
 }
