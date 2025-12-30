@@ -29,4 +29,19 @@ fun main(args: Array<String>) {
         println(i)
     }
 
+    // 2. While
+    // java와 동일하게 사용
+
+    var num = 3
+
+//    while (num < 5) {
+//        println("current number = $num")
+//        num++
+//    }
+
+    do {
+        println("current number = $num")
+        num++
+    } while (num < 5)
+
 }
