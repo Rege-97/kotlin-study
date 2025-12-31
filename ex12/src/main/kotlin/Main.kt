@@ -1,7 +1,7 @@
-//public    : 어디서나 접근 가능 (디폴트)
-//internal  : 같은 모듈 내에서만 접근 가능
-//protected : 자식 클래스에서만 접근 가능
-//private   : 해당 클래스/파일 내부에서만 접근 가능
+//  public    : 어디서나 접근 가능 (디폴트)
+//  internal  : 같은 모듈 내에서만 접근 가능
+//  protected : 자식 클래스에서만 접근 가능
+//  private   : 해당 클래스/파일 내부에서만 접근 가능
 
 fun main(args: Array<String>) {
     val a = A()
